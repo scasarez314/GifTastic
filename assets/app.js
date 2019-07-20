@@ -34,7 +34,7 @@ function showGifPicture() {
 
     var APIkey = "WXE2Mr5EcRkieLtYMSGwDEtWe65I64tm";
     var gifButtonClicked = $(this).attr("gif-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifButtonClicked + "&api_key=" + APIkey + "&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifButtonClicked + "&api_key=" + APIkey + "&limit=10";
 
 
 

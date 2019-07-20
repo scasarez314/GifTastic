@@ -4,24 +4,35 @@
         <link rel="stylesheet" href="assets/style.css">
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- <link rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <title>GifTastic</title>
     </head>
 
-    <body>
+    <body class="">
         <div id="container">
-            <h1>Gify Search</h1>
+            <h1 style="background:rgb(156, 241, 156)"
+                class="jumbotron border
+                border-danger text-white my-3">Giphy
+                Search
+            </h1>
 
-            <div id="arrayButtons"></div>
+            <div class="clearfix">
 
-            <form id="gifSearch">
-                <input id="gifSubmit" type="submit" value="Search New"> | <input
-                    type="text" id="gifySearchBox">
-            </form>
+                <div class="mr-2" id="arrayButtons"></div>
 
-            <div id="gifPictureHolder"></div>
+                <form class="mr-2 mt-3" id="gifSearch">
+                    <input class="btn btn-primary btn-sm" id="gifSubmit"
+                        type="submit" value="Search New"> | <input
+                        type="text" id="gifySearchBox">
+                </form>
+            </div>
 
+            <div class="clearfix">
+                <div class="card mt-7 mr-2 ml-2">
+                    <div class="row" id="gifPictureHolder"></div>
+                </div>
+            </div>
 
 
             <script src="assets/app.js"></script>

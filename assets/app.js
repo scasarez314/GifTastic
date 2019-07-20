@@ -1,5 +1,5 @@
 //inital array for the deault buttons 
-var gifArray = ["Jupiter", "Spaceship", "Mars"]
+var gifArray = ["Jupiter", "Spaceship", "Mars", "Nebula"]
 
 
 function showMeTheGifButtons() {
@@ -48,6 +48,7 @@ function showGifPicture() {
         console.log(response)
 
         $("#gifPictureHolder").empty();
+
         //running a loop through the response array 
         for (let i = 0; i < response.data.length; i++) {
 

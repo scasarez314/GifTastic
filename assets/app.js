@@ -1,5 +1,5 @@
 //inital array for the deault buttons 
-var gifArray = ["Jupiter", "Earth", "Mars"]
+var gifArray = ["Jupiter", "Mars"]
 
 
 function showMeTheGifButtons() {
